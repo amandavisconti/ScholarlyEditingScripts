@@ -3,11 +3,14 @@ ScholarlyEditingScripts
 
 Scripts to help scholars and readers work with textual transcriptions and other digital files.
 
-##CREDIT: For the encoding replacement code (tustepscrub.py), this script is based on Eli Courtwright's answer to the StackOverflow question "Python - Way to recursively find and replace string in text files" (http://goo.gl/enn4ho). Numberremoval.py is currently wholly code created by someone else (viewable here, no author name: http://goo.gl/tePnrO); I need to adapt it to write to file instead of printing in terminal when I have the time.
+##CREDIT: 
+For the encoding replacement code (tustepscrub.py), this script is based on Eli Courtwright's answer to the StackOverflow question "Python - Way to recursively find and replace string in text files" (http://goo.gl/enn4ho). Numberremoval.py is currently wholly code created by someone else (viewable here, no author name: http://goo.gl/tePnrO); I need to adapt it to write to file instead of printing in terminal when I have the time.
 
-##LICENSING: Completely free for reuse of any type. Credit to all parties involved appreciated but not required.
+##LICENSING: 
+Completely free for reuse of any type. Credit to all parties involved appreciated but not required.
 
-##PURPOSE: To remove TUstep encoding and line numbering from a directory of .txt files, creating a clean reading text that can also be used for text analysis (e.g. with Juxta).
+##PURPOSE: 
+To remove TUstep encoding and line numbering from a directory of .txt files, creating a clean reading text that can also be used for text analysis (e.g. with Juxta).
 
 ##DIRECTIONS:
 1. These directions assume you have, on your desktop, a folder named TUstepscrub containing both TUstepscrub.py and a folder of your .txt file(s) to be scrubbed named "TUstepfiles". These directions also assume Mac usage (non-Mac users may need to install Python and substitute their command-line program for the Mac terminal).
