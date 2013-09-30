@@ -10,7 +10,7 @@ For the encoding replacement code (tustepscrub.py), this script is based on Eli 
 Completely free for reuse of any type. Credit to all parties involved appreciated but not required.
 
 ##PURPOSE: 
-To remove TUstep encoding and line numbering from a directory of .txt files, creating a clean reading text that can also be used for text analysis (e.g. with Juxta).
+To remove format encoding and line numbering from a directory of .txt files, creating a clean reading text that can also be used for text analysis (e.g. with Juxta).
 
 ##DIRECTIONS:
 1. These directions assume you have, on your desktop, a folder named TUstepscrub containing both TUstepscrub.py and a folder of your .txt file(s) to be scrubbed named "TUstepfiles". These directions also assume Mac usage (non-Mac users may need to install Python and substitute their command-line program for the Mac terminal).
@@ -22,8 +22,8 @@ and hitting enter.
 and hit enter.
 4. When the script has completed, it will print instructions on how to remove the line numbering from these files.
 
-##TUstep ENCODING INCLUDED and CUSTOMIZING THIS SCRIPT:
-This script was developed against the TUstep-encoded Ulysses reading text edited by Hans Walter Gabler; it removes all of the TUstep format encodings I could locate in those files. It may not remove TUstep encoding that does not appear in the Ulysses files, but you can easily customize this script to remove additional TUstep encodings by reading the code comments farther below.
+##FORMAT ENCODING INCLUDED and CUSTOMIZING THIS SCRIPT:
+This script was developed against the encoded Ulysses reading text edited by Hans Walter Gabler; it removes all of the format encodings I could locate in those files. It may not remove encoding that does not appear in the Ulysses files, but you can easily customize this script to remove additional encodings by reading the code comments farther below.
 
 ##SPECIFIC THINGS REMOVED BY THIS SCRIPT:
 13 format encodings:
